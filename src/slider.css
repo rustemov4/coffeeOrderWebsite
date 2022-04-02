@@ -1,0 +1,62 @@
+.slide{
+    position: fixed;
+    top:5%;
+    left: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 90%;
+    z-index: 10;
+    display: none;
+}
+.backgroundSlide{
+    position: fixed;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: black;
+    z-index:2;
+    opacity: 0.5;
+    display: none;
+    
+}
+.close{
+    position: fixed;
+    top:2%;
+    right: 2%;
+    font-size: 33px;
+    z-index: 10;
+    color: aliceblue;
+    display: none;
+    cursor: pointer;
+}
+.left{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    cursor: pointer;
+    font-size: 35px;
+    color: aliceblue;
+    z-index: 1000;
+}
+.right{
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    cursor: pointer;
+    font-size: 35px;
+    color: aliceblue;
+    
+    z-index: 1000;
+}
+.active{
+    display: block;
+    transition: all 0.5s;
+}
+.modal-picture{
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+}
