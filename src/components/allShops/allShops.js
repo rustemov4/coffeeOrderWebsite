@@ -1,7 +1,7 @@
 import { shopData } from "../shopData/shopData";
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { Shop } from "../Shop/Shop";
-import '../../slider.css';
+import '../styles/slider.css';
 import { useState } from 'react';
 import { FaWindowClose,FaArrowLeft,FaArrowRight } from "react-icons/fa";
 export const AllShops = () =>{

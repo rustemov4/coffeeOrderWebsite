@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { Col, Row } from 'react-bootstrap';
 import { FaSearchPlus } from 'react-icons/fa';
-import '../../shop.css'
+import '../styles/shop.css'
 export const Shop = (props) =>{
     return(
         <Row className='mt-2 bg-light row p-1 shadow-sm rounded d-flex align-items-center'>

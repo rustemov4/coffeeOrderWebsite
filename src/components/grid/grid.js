@@ -2,7 +2,7 @@ import Coffee from '../card/card';
 import { data } from '../data/data';
 import { Container, Row } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css'
-import '../../App.css';
+import '../styles/App.css';
 export default function Grid(){
     
     return(

@@ -1,6 +1,6 @@
 import {Button, Card, Col} from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import '../../App.css';
+import '../styles/App.css';
 import { useDispatch } from 'react-redux';
 import { setProducts } from '../../redux/actions/productActions';
 export default function Coffee(props){

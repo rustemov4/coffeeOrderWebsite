@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
-import './App.css';
+import './components/styles/App.css';
 import Navbar from './components/navbar/navbar';
 import {FaPhoneAlt} from 'react-icons/fa'
 import{Routes,Route,BrowserRouter} from 'react-router-dom'
