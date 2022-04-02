@@ -1,12 +1,12 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css';
-import Grid from './grid';
-import Navbar from './navbar';
+import Navbar from './components/navbar/navbar';
 import {FaPhoneAlt} from 'react-icons/fa'
 import{Routes,Route,BrowserRouter} from 'react-router-dom'
-import Main from './main';
-import { ProductListing } from './allProducts';
-import { AllShops } from './allShops';
+import Main from './components/main/main';
+import { ProductListing } from './components/allProducts/allProducts';
+import { AllShops } from './components/allShops/allShops';
+import Grid from './components/grid/grid';
 function App() {
 
   return (

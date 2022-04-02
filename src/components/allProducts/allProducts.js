@@ -1,8 +1,8 @@
 import { useSelector } from "react-redux"
 import { Container, Row, Col,Button } from 'react-bootstrap';
-import CartProduct from "./cartProduct";
 import { useEffect, useState } from "react";
 import { FaAngleLeft } from "react-icons/fa";
+import CartProduct from "../cartProduct/cartProduct";
 export const ProductListing = () =>{
     const cart = useSelector((state) => state.allProducts.cart);
     const result = cart.reduce((total, currentValue) => total = total + (currentValue.price * currentValue.quantity),0);

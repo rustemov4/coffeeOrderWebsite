@@ -1,9 +1,9 @@
 import {Button} from 'react-bootstrap'
-import { removeProduct } from './redux/actions/productActions';
+import { removeProduct } from '../../redux/actions/productActions';
 import { useDispatch } from 'react-redux';
 import { useSelector } from "react-redux"
 import 'bootstrap/dist/css/bootstrap.min.css'
-import './App.css';
+import '../../App.css';
 export default function CartProduct(props){
     
     const cart = useSelector((state) => state.allProducts.cart);
